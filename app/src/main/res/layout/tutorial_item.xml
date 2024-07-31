@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/tutorial_item"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/tutoImage"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:clickable="true"
+        android:src="@drawable/tutorial1"
+        android:contentDescription="Tutorial Image"/>
+
+    <TextView
+        android:id="@+id/tutoTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Tutorial Title"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/tutoDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Tutorial Description"
+        android:textSize="14sp"/>
+
+</LinearLayout>
